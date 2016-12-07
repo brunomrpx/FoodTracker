@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26149B8F1DF88E3A00289B87 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26149B8E1DF88E3A00289B87 /* Meal.swift */; };
+		26149B901DF88E3A00289B87 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26149B8E1DF88E3A00289B87 /* Meal.swift */; };
 		266A85AE1D5F6A670022D6E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A85AD1D5F6A670022D6E8 /* AppDelegate.swift */; };
 		266A85B01D5F6A670022D6E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A85AF1D5F6A670022D6E8 /* ViewController.swift */; };
 		266A85B31D5F6A670022D6E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266A85B11D5F6A670022D6E8 /* Main.storyboard */; };
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26149B8E1DF88E3A00289B87 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		266A85AA1D5F6A670022D6E8 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266A85AD1D5F6A670022D6E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		266A85AF1D5F6A670022D6E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 			children = (
 				266A85AD1D5F6A670022D6E8 /* AppDelegate.swift */,
 				266A85AF1D5F6A670022D6E8 /* ViewController.swift */,
+				26149B8E1DF88E3A00289B87 /* Meal.swift */,
 				266A85B11D5F6A670022D6E8 /* Main.storyboard */,
 				266A85B41D5F6A670022D6E8 /* Assets.xcassets */,
 				266A85B61D5F6A670022D6E8 /* LaunchScreen.storyboard */,
@@ -202,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26149B8F1DF88E3A00289B87 /* Meal.swift in Sources */,
 				266A85B01D5F6A670022D6E8 /* ViewController.swift in Sources */,
 				268B437E1DF8311600E91AC1 /* RatingControl.swift in Sources */,
 				266A85AE1D5F6A670022D6E8 /* AppDelegate.swift in Sources */,
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26149B901DF88E3A00289B87 /* Meal.swift in Sources */,
 				266A85C31D5F6A670022D6E8 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
