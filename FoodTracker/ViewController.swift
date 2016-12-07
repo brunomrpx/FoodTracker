@@ -53,12 +53,9 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         imagePickerController.sourceType = .photoLibrary
         imagePickerController.delegate = self
         present(imagePickerController, animated: true, completion: nil)
-        
-        print("Selecting image from photo library")
     }
     
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        print("HELLO")
         mealNameLabel.text = "Default Text"
     }
 }
